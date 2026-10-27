@@ -1,0 +1,4 @@
+Distributed and Cloud Database Strategy for GlobalMart E-commerce
+1. Cloud Architecture: Deploying the e-commerce platform on a managed cloud database service (such as Amazon RDS or Google Cloud SQL) removes upfront hardware costs and provides elastic scalability[cite: 77, 83].
+2. Handling Traffic Surges: During high-traffic retail events (like Black Friday), the system utilizes horizontal scaling and read replicas to distribute query loads across multiple nodes.
+3. Consistency vs Availability (CAP Theorem): The system balances CAP trade-offs by utilizing CP (Consistency + Partition Tolerance) for inventory and payment processing to prevent overselling, while applying eventual consistency for product recommendation feeds and user view histories[cite: 54, 58].

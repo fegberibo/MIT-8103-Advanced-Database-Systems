@@ -1,0 +1,12 @@
+Database Design and Modelling - GlobalMart E-commerce
+
+1. ER Diagram & Relational Schema: 
+The database models core online retail operations using three core entities: Customers, Products, and Orders. 
+
+2. Keys and Constraints:
+- Primary Keys (PK): Customer_ID, Product_ID, and Order_ID uniquely identify records in their respective tables.
+- Foreign Keys (FK): Customer_ID and Product_ID are used in the Orders table to establish relational links to the Customers and Products tables.
+- Constraints: NOT NULL and UNIQUE constraints are applied to critical fields (such as Email and Stock_Quantity) to ensure data integrity.
+
+3. Normalisation:
+The schema is designed in Third Normal Form (3NF). All non-key attributes are fully dependent on the primary key, eliminating transitive dependencies and minimising data redundancy across the system.

@@ -1,0 +1,11 @@
+{
+  "product_id": "P1001",
+  "name": "Wireless Gaming Mouse",
+  "price": 49.99,
+  "category": "Electronics",
+  "attributes": {
+    "dpi": 16000,
+    "battery_life": "60 hours",
+    "connectivity": "Wireless / USB-C"
+  }
+}

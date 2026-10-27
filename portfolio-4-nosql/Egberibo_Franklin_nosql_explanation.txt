@@ -1,0 +1,2 @@
+NoSQL Suitability for E-commerce
+A Document Store (such as MongoDB) is ideal for managing e-commerce product catalogs. Because different product categories have completely unique attributes (e.g., clothing has sizes, electronics have technical specs), a rigid relational schema requires sparse columns or complex joins. A NoSQL document model allows flexible, nested attributes within a single self-describing document, improving scaling and developer velocity.
